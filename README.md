@@ -3,13 +3,16 @@ Priestley-Taylor Jet Propulsion Laboratory Evapotranspiration Code for 1-dimensi
 
 Please use jupyter notebook to open the example script.
 
-A conda environment will be loaded in the future. In lieu of the environment a list of dependencies is below.
-
 Pending updates:
+* Updating syntax to reflect Python v3+
 * Changing temperature to mid-day
 * Incorporating 2-week mean moving averages for meteorological forcing.
 
+
+A conda environment will be loaded in the future. In lieu of the environment a list of dependencies is below.
+
 Python Dependencies
+Python Version 2.7 compatable
 datetime
 glob
 matplotlib.dates
