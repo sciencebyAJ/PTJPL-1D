@@ -5,6 +5,10 @@ Please use jupyter notebook to open the example script.
 
 A conda environment will be loaded in the future. In lieu of the environment a list of dependencies is below.
 
+Pending updates:
+* Changing temperature to mid-day
+* Incorporating 2-week mean moving averages for meteorological forcing.
+
 Python Dependencies
 datetime
 glob
