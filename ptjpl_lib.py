@@ -350,7 +350,7 @@ def ptjpl(AA,
 
     if verbose:
         print('calculating plant optimum temperature')
-        print 'optimum temp: ' +str(optimum_temperature)+ ' C'
+        print(str(optimum_temperature)+ ' C')
 
     # calculate plant temperature constraint (fT) from optimal phenology
     plant_temperature_constraint = fT_fun(air_temperature_mean,optimum_temperature)
