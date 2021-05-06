@@ -7,7 +7,7 @@
 # <left> Adjustments are made for application at daily timesteps
 # <left> This version of code was authored by: AJ Purdy
 # <left> Major Contributions for this code are from Gregory Halverson & Grayson Badgley
-# <left> Contact:  ajpurdy@uci.edu     
+# <left> Contact:  apurdy@usfca.edu     
 # ***************************************************************
 # 
 #     Input variables within DATAFRAME:     
@@ -49,11 +49,8 @@ data_path = 'data/'
 figs_path = 'figs/'
 # ----------------------- MODEL IS IN THE LIBRARY REFERENCED HERE ---------------------- 
 from ptjpl_lib import *
-# ----------------------------- NOTEBOOK SPECIFIC COMMANDS ----------------------------- 
-# % matplotlib inline
-# from IPython.core.display import display, HTML
-# display(HTML("<style>.container { width:90% !important; }</style>"))
 
+# --------------------------- Create figures to compare data ---------------------------
 os.chdir(data_path);
 fList = glob.glob('*.csv');
 fNameMMS = fList[0]; 
@@ -78,11 +75,3 @@ plt.legend(ncol=3, fontsize=7)
 plt.ylabel('$Wm^{-2}$', fontsize=14)
 plt.title('Morgan Monroe State Forest')
 plt.savefig(figs_path+'US-MMS_ET_components.png')
-
-
-
-
-# In[ ]:
-
-
-
